@@ -1,0 +1,21 @@
+# 21.完成第一个Enemy
+
+![b3ca66cfc3f5049fe1ea13128b681dcb.png](image/b3ca66cfc3f5049fe1ea13128b681dcb.png)
+
+![b9fcf755485e6693118bd350059cdcb8.png](image/b9fcf755485e6693118bd350059cdcb8.png)
+
+![38d322519ff043283031e3bd13f75907.png](image/38d322519ff043283031e3bd13f75907.png)
+
+![a6b722318d429842505ebb9ba9e6d87f.png](image/a6b722318d429842505ebb9ba9e6d87f.png)
+
+![8c63696c7bd414a864c73a8cb2dd5353.png](image/8c63696c7bd414a864c73a8cb2dd5353.png)
+
+![90f987618bbcd38d8967f2e7d1d71ee7.png](image/90f987618bbcd38d8967f2e7d1d71ee7.png)
+
+![cb53775bbd64519878e73a8d19d443e6.png](image/cb53775bbd64519878e73a8d19d443e6.png)
+
+每个敌人都设置一样
+
+基础移动脚本，动画等等
+
+![8ac4fbe385c2244a2ee793c1cd7fc207.png](image/8ac4fbe385c2244a2ee793c1cd7fc207.png)

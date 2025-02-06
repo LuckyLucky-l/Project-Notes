@@ -2,11 +2,11 @@
 
 1.创建一个西红柿并做好视觉逻辑分层
 
-![400a560d194402883b428e82e21fabd9.png](image/400a560d194402883b428e82e21fabd9.png)
+![400a560d194402883b428e82e21fabd9.png](image/400a560d194402883b428e82e21fabd9.png) 
 
 做好预设体的整理
 
-![7cdb3ebf98d637cc808bc416c8519bbc.png](image/7cdb3ebf98d637cc808bc416c8519bbc.png)
+![7cdb3ebf98d637cc808bc416c8519bbc.png](image/7cdb3ebf98d637cc808bc416c8519bbc.png) 
 
 ![0d6e144633bdf5fc359bdf32296241d3.png](image/0d6e144633bdf5fc359bdf32296241d3.png)
 
@@ -26,7 +26,7 @@
 
 ![fa87fb0f54d649321b205a7f76ce9092.png](image/fa87fb0f54d649321b205a7f76ce9092.png)
 
-```
+```c#
 在Unity中，`ScriptableObject` 是一种特殊的类，允许你存储和管理数据，而不需要创建和运行场景中的游戏对象。这里的关键概念是“**无需实例化场景对象**”。
 ### 传统对象 vs. ScriptableObject
 通常在Unity中，你会创建**场景对象**（GameObjects），它们有各种组件（如`Transform`、`Rigidbody`等），并存在于场景中。比如，角色、敌人、道具都是场景对象。这些对象只有在场景中实例化时，才能被管理和操作。
@@ -56,27 +56,26 @@ public class KitchenObjectSO : ScriptableObject {
 
 ### 总结：
 `ScriptableObject`是一种优化和简化数据管理的方法，允许你在Unity中存储资产和配置，而无需在场景中创建实际的游戏对象。这使得它非常适合保存跨场景共享的静态数据或配置文件。
-```
 
 二：设置各自的文件
 
-![934b473c64da300d947f315478094199.png](image/934b473c64da300d947f315478094199.png)
+![934b473c64da300d947f315478094199.png](assets/934b473c64da300d947f315478094199.png)
 
 三：改脚本代码，将直接得到预设体的代码改成得到对应的SO文件
 
-![afae3746b122c7022ca89e4c2e1eb683.png](image/afae3746b122c7022ca89e4c2e1eb683.png)
+![afae3746b122c7022ca89e4c2e1eb683.png](assets/afae3746b122c7022ca89e4c2e1eb683.png)
 
-![c75221a40abd04f0ef1354220b3be632.png](image/c75221a40abd04f0ef1354220b3be632.png)
+![c75221a40abd04f0ef1354220b3be632.png](assets/c75221a40abd04f0ef1354220b3be632.png)
 
 四：
 
-![ee952e38d579c49becacf4b2971bc458.png](image/ee952e38d579c49becacf4b2971bc458.png)
+![ee952e38d579c49becacf4b2971bc458.png](assets/ee952e38d579c49becacf4b2971bc458.png)
 
-![03df032fb60d51861aca0e81409dc08d.png](image/03df032fb60d51861aca0e81409dc08d.png)
+![03df032fb60d51861aca0e81409dc08d.png](assets/03df032fb60d51861aca0e81409dc08d.png)
 
-![4fd7710fbd870ce75c4a133d6ea965f8.png](image/4fd7710fbd870ce75c4a133d6ea965f8.png)
+![4fd7710fbd870ce75c4a133d6ea965f8.png](assets/4fd7710fbd870ce75c4a133d6ea965f8.png)
 
-![fd86d94dda60bd693a37f95362bcb32f.png](image/fd86d94dda60bd693a37f95362bcb32f.png)
+![fd86d94dda60bd693a37f95362bcb32f.png](assets/fd86d94dda60bd693a37f95362bcb32f.png)
 
 总结：
 
